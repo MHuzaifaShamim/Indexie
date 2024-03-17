@@ -1,0 +1,149 @@
+.custom-nav{
+    background-color: burlywood;
+}
+
+.custom-img{
+    height: 50px;
+    /* width: 50px; */
+}
+
+.custom-anker:hover{
+    text-decoration: underline;
+}
+
+.custom-carousel{
+    height: 500px;
+}
+.color{
+    color: burlywood;
+}
+/* .image1{
+    margin-left: -13px;
+    width: 285px;
+} */
+
+.hh{
+    background-color: burlywood;
+}
+
+.hgy{
+    height: 250px;
+}
+
+.custom-conatiner{
+    background-color: burlywood;
+}
+
+.custom-footer{
+    text-decoration: none;
+}
+
+.custom-footer2{
+    color:darkred ;
+}
+
+.Handicraft-Product{
+    text-decoration: none;
+}
+
+.my-img{
+    height: 170px;
+}
+
+.card{
+    border: none;
+}
+
+.card:hover{
+    /* border: 2px solid gainsboro; */
+
+    box-shadow: 10px 10px 10px rgb(231, 155, 56);
+}
+
+.custom-1{
+    height: 400px;
+    width: 440px;
+}
+
+.custom-buynow{
+    width: 160px;
+}
+
+.Gallery-image img{
+    height: 200px;
+    width: 100%;
+    /* margin-top: 10px; */
+}
+
+.Footer-icons{
+    font-size: 30px;
+  }
+
+
+
+  body.dark-mode{
+    background-color: #ccc;
+    color: white;
+}
+
+.icon{
+    color: blue;
+    margin-left: 110px;
+    size: 200px;
+}
+
+
+h3  {
+    font-family: "Pacifico", cursive;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+  h1  {
+    font-family: "Pacifico", cursive;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+  h2  {
+    font-family: "Pacifico", cursive;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+  /* h6  {
+    font-family: "Pacifico", cursive;
+    font-weight: 100;
+    font-style: normal;
+  } */
+  
+
+  .bg-footer{
+    background-color: burlywood;
+  }
+
+  .bannerimg{
+    background-image: linear-gradient(rgba(0,0,0,0.50),rgba(0,0,0,0.50)) ,url(https://www.shutterstock.com/image-vector/creative-craft-workshop-desk-top-600nw-1962408787.jpg);
+    height: 350px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: wheat;
+    text-align: center;
+  }
+
+
+
+
+
+
+  ::-webkit-scrollbar{
+    width: 10px;
+}
+
+
+::-webkit-scrollbar-thumb{
+background-color:rgb(231, 155, 56);
+width: 15px;
+border-radius: 20px;
+}

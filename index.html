@@ -1,0 +1,702 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <title>Home</title>
+  <!-- Required meta tags -->
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+
+  <!-- Bootstrap CSS v5.2.1 -->
+  <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous" /> -->
+  <link rel="stylesheet" href="css/Bootstrap Css/bootstrap.css">
+    <link rel="stylesheet" href="css/style.css">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500&family=Pacifico&display=swap"
+    rel="stylesheet">
+  <style>
+    .loadinggif {
+      max-width: 500px;
+    }
+
+    .pre-loader {
+      position: fixed;
+      top: 0;
+      left: 0;
+      background-color: rgb(2, 2, 2);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100%;
+      width: 100%;
+      z-index: 100;
+    }
+
+    .pre-loader.hidden {
+      animation: fadeOut 2s;
+      animation-fill-mode: forwards;
+    }
+
+    @keyframes fadeOut {
+      100% {
+        opacity: 0;
+        visibility: hidden;
+      }
+    }
+
+    .Home-carousel-imag {
+      height: 485px;
+      width: auto;
+    }
+
+
+    .Home-card-img {
+      height: 250px;
+    }
+
+    .hh {
+      background-image: url(images/Ceramics\ and\ Pottery7.jpeg);
+      background-size: cover;
+      background-repeat: no-repeat;
+    }
+
+    .footer-search {
+      border: none;
+      outline: none;
+      width: 350px;
+      height: 34px;
+      border-radius: 5px;
+      background-color: #ccc;
+    }
+    .custom-carousel{
+      height: 500px;
+    }
+    .absolutes{
+      position: absolute;
+      top: 230px;
+      left: 200px;
+    }
+    #myBtn{
+            display: none;
+            position: fixed;
+            bottom: 20px;
+            right: 30px;
+            z-index: 99;
+            font-size: 18px;
+            border: none;
+            outline: none;
+            cursor: pointer;
+            padding: 15px;
+            border-radius: 4px;
+        }
+  </style>
+</head>
+
+<body>
+  <div class="pre-loader">
+    <img src="images/3loader.gif" alt="loader" class="loadinggif">
+  </div>
+  <script>
+    window.addEventListener('load', function () {
+      document.querySelector('.pre-loader').className += ' hidden'
+    });
+  </script>
+  <nav class="navbar navbar-expand-lg navbar-light me-auto fixed-top custom-nav">
+    <div class="container">
+      <a class="navbar-brand" href="#"><img src="images/lgoo.png" alt="" class="custom-img"></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0 ms-auto fs-5">
+          <li class="nav-item">
+            <a class="nav-link active custom-anker" aria-current="page" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active custom-anker" href="Handicraftsproducts.html">Products</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active custom-anker" href="Gallery.html">Gallery</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active custom-anker" href="About.html">About Us</a>
+          </li>
+         
+          <li class="nav-item">
+            <a class="nav-link active custom-anker" href="Contact.html">Contact</a>
+          </li>
+         
+          <li class="nav-item">
+            <a class="nav-link active custom-anker" href="facts.html"> Faqs</a>
+          </li>
+        </ul>
+        <div class="form-check form-switch mx-2 my-auto">
+          <input class="form-check-input" type="checkbox" id="flexSwitchCheckChecked">
+        </div>
+
+      </div>
+    </div>
+    </div>
+  </nav>
+  <br>
+  <br><br>
+
+  <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner custom-carousel">
+      <div class="carousel-item active" data-bs-interval="10000">
+        <img src="images/Wood6.jpeg  " class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block absolutes">
+          <h5 class="text-white" style="font-size: 22px;">First slide label</h5>
+          <p class="text-white" style="font-size: 20px;"> Items such as handwoven baskets, rugs, quilts, and furniture are not only decorative but also functional, providing storage, warmth, and comfort.</p>
+        </div>
+      </div>
+      <div class="carousel-item" data-bs-interval="2000">
+        <img src="images/slidesssssss.avif" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block absolutes">
+          <h5 class="text-white" style="font-size: 22px;">Second slide label</h5>
+          <p class="text-white" style="font-size: 20px;"> Items such as handwoven baskets, rugs, quilts, and furniture are not only decorative but also functional, providing storage, warmth, and comfort.</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="images/slidess4.avif" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block absolutes">
+          <h5 class="text-light" style="font-size: 22px;">Third slide label</h5>
+          <p class="text-light" style="font-size: 20px;"> Items such as handwoven baskets, rugs, quilts, and furniture are not only decorative but also functional, providing storage, warmth, and comfort.</p>
+        </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      
+    </button>
+  </div>
+
+  <!-- category section -->
+  <div class="container-fluid mt-4" style="background-color: burlywood">
+    <div class="row">
+      <div class="col-9 m-auto p-2 ">
+        <div class="row ">
+          <div class="col-lg-2 col-md-2 col-sm-2 col-xs-2 col-xxs-2 ">
+            <img src="images/Wood6.jpeg" style="height: 100px; width: 100px; border: 2px solid white;" class="  img-fluid rounded-circle"
+              alt="">
+            <p class="mx-4">Wood</p>
+          </div>
+          <div class="col-lg-2 col-md-2 col-sm-2 col-xs-2 col-xxs-2 ">
+            <img src="images/Brass 7.jpeg" style="height: 100px; width: 100px; border: 2px solid white;" class="  img-fluid rounded-circle"
+              alt="">
+            <p class="mx-4">Brass</p>
+          </div>
+          <div class="col-lg-2 col-md-2 col-sm-2 col-xs-2 col-xxs-2 ">
+            <img src="images/Candle5.jpeg" style="height: 100px; width: 100px; border: 2px solid white;" class="  img-fluid rounded-circle"
+              alt="">
+            <p class="mx-4">Candle</p>
+          </div>
+          <div class="col-lg-2 col-md-2 col-sm-2 col-xs-2 col-xxs-2 ">
+            <img src="images/Ceramics and Pottery4.jpg" style="height: 100px; width: 100px; border: 2px solid white;" class="  img-fluid rounded-circle"
+              alt="">
+            <p>Creamic and Pottery</p>
+          </div>
+          <div class="col-lg-2 col-md-2 col-sm-2 col-xs-2 col-xxs-2 ">
+            <img src="images/Handicrafts Decorative4.jpeg" style="height: 100px; width: 100px; border: 2px solid white;" class="  img-fluid rounded-circle"
+              alt="">
+            <p class="mx-3"> Decorative</p>
+          </div>
+          <div class="col-lg-2 col-md-2 col-sm-2 col-xs-2 col-xxs-2 ">
+            <img src="images/Home decor6.jpeg" style="height: 100px; width: 100px; border: 2px solid white;" class="  img-fluid rounded-circle"
+              alt="">
+            <p class="mx-2">Home decor</p>
+          </div>
+
+        </div>
+
+
+
+      </div>
+    </div>
+  </div>
+  <div class="container mt-5">
+    <div class="col-lg-12">
+      <div class="row">
+        <h1 class="text-center" data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="2000">Our
+          New<span class="color"> Products</span></h1>
+        <hr class="w-25 m-auto">
+      </div>
+    </div>
+  </div>
+
+
+
+    
+
+  <div class="container mt-4">
+    <div class="row">
+      <div class="col-lg-3 col-md-6 col-sm-6 col-xs-6">
+        <a href="Home decor4.html" style="text-decoration: none;" class="text-dark">
+        <div class="card mx-5" style="width: 16rem;">
+          <img src="images/Home decor4.jpeg" class="card-img-top Home-card-img" alt="...">
+          <div class="card-body">
+             <p class="card-text text-dark">Beatiful Living Room Decor for a Timeless Look...</p>
+          </div>
+        </div>
+      </a>
+      </div>
+  
+      <div class="col-lg-3 col-md-6 col-sm-6 col-xs-6">
+        <a href="Handwoven handicrafts5.html" style="text-decoration: none;" class="text-dark">
+        <div class="card mx-5" style="width: 16rem;">
+          <img src="images/Handwoven handicrafts5.jpeg" class="card-img-top Home-card-img" alt="...">
+          <div class="card-body">
+             <p class="card-text text-dark">Handwoven clothing and winter best clothes...</p>
+          </div>
+        </div>
+      </a>
+      </div>
+  
+      <div class="col-lg-3 col-md-6 col-sm-6 col-xs-6">
+        <a href="Wood4.html" style="text-decoration: none;" class="text-dark">
+        <div class="card mx-5" style="width: 16rem;">
+          <img src="images/4....2.jpeg" class="card-img-top Home-card-img" alt="...">
+          <div class="card-body">
+             <p class="card-text text-dark">Wooden Sailing Funitures Wood Crafts Handmade...</p>
+          </div>
+        </div>
+      </a>
+      </div>
+      <div class="col-lg-3 col-md-6 col-sm-6 col-xs-6">
+        <a href="Aluminium8.html" style="text-decoration: none;" class="text-dark">
+        <div class="card mx-5" style="width: 16rem;">
+          <img src="images/Aluminium8.jpg" class="card-img-top Home-card-img" alt="...">
+          <div class="card-body">
+             <p class="card-text text-dark">Horse Statue, Handicraft Modern Horse...</p>
+          </div>
+        </div>
+      </a>
+      </div>
+      
+    </div>
+  </div>
+
+
+ <div class="container-fluid mt-5 img-fluid bannerimg">
+  <h4 style="font-size: 34px;">Handicrafts</h4>
+<p style="font-size: 20px;"> Handicrafts are popular choices for gifts due to their uniqueness and personal touch. Handcrafted items such as jewelry, pottery, textiles, and wood carvings are often given as gifts for special occasions like weddings, birthdays, and holidays.</p>
+<a class="btn btn-success mt-4" href="Contact.html" >Conatct Us</a>
+</div>
+
+ <div class="container mt-5">
+    <div class="col-lg-12">
+      <div class="row">
+        <h1 class="text-center" data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="2000">Our<span class="color"> Features</span></h1>
+        <hr class="w-25 m-auto">
+      </div>
+    </div>
+  </div>
+
+  <div class="container mt-5">
+    <div class="row">
+      <div class="col-lg-3 col-md-6 col-sm-6 col-xs-6">
+        <a href="Candle3.html" style="text-decoration: none;" class="text-dark">
+        <div class="card mx-5" style="width: 16rem;">
+          <img src="images/Candle3.jpeg" class="card-img-top Home-card-img" alt="...">
+          <div class="card-body">
+             <p class="card-text text-dark">Decorative candles symbolize the power and warmth of fire...</p>
+          </div>
+        </div>
+      </a>
+      </div>
+  
+      <div class="col-lg-3 col-md-6 col-sm-6 col-xs-6">
+        <a href="Ceramics and Pottery5.html" style="text-decoration: none;" class="text-dark">
+        <div class="card mx-5" style="width: 16rem;">
+          <img src="images/Ceramics and Pottery5.jpg" class="card-img-top Home-card-img" alt="...">
+          <div class="card-body">
+             <p class="card-text text-dark">Small Decorative Bowl | Home Decor | Vase| Ceramics...</p>
+          </div>
+        </div>
+      </a>
+      </div>
+  
+      <div class="col-lg-3 col-md-6 col-sm-6 col-xs-6">
+        <a href="Brass3.html" style="text-decoration: none;" class="text-dark">
+        <div class="card mx-5" style="width: 16rem;">
+          <img src="images/Brass 3.jpeg" class="card-img-top Home-card-img" alt="...">
+          <div class="card-body">
+             <p class="card-text text-dark">Antique Bell China's mini Brass sculpture pray....</p>
+          </div>
+        </div>
+      </a>
+      </div>
+      <div class="col-lg-3 col-md-6 col-sm-6 col-xs-6">
+        <a href="Tables wares7.html" style="text-decoration: none;" class="text-dark">
+        <div class="card mx-5" style="width: 16rem;">
+          <img src="images/Tables wares7.jpeg" class="card-img-top Home-card-img" alt="...">
+          <div class="card-body">
+             <p class="card-text text-dark">Tables wares in glasses and Plaates top of the Table...</p>
+          </div>
+        </div>
+      </a>
+      </div>
+      
+    </div>
+  </div>
+  
+  
+  <div class="container mt-5">
+    <div class="col-lg-12">
+      <div class="row">
+        <h1 class="text-center" data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="2000">Our<span class="color"> Reviews</span></h1>
+        <hr class="w-25 m-auto">
+      </div>
+    </div>
+  </div>
+
+
+  <div class="carouselcont" class="carousel slide" data-bs-ride="carousel" data-bs-interval="3000">
+    <div class="carousel-inner">
+        <div class="carousel-item active">
+            <div class="row p-5">
+                <div class="col-lg-4 col-md m-auto">
+                    <div class="card">
+                        <div class="card-body text-center">
+                          
+                            <img src="images/cardslide1.avif" alt="" class="img-fluid" style="border-radius: 50%; height: 150px; width: 150px;">
+                            <h4>Hammad</h4>
+                            <p>"Are you looking for reviews of a specific product.</p>
+                            <i class="bi bi-star-fill text-warning"></i>
+                            <i class="bi bi-star-fill text-warning"></i>
+                            <i class="bi bi-star-fill text-warning"></i>
+                            <i class="bi bi-star-fill text-warning"></i>
+                            <i class="bi bi-star-half text-warning"></i>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="col-lg-4 col-md m-auto">
+                    <div class="card">
+                        <div class="card-body text-center">
+                          
+                            <img src="images/cardslide2.jpg" alt="" class="img-fluid" style="border-radius: 50%; height: 150px; width: 150px;">
+                      <h4>Ali</h4>
+                            <p>"Are you looking for reviews of a specific product.</p>
+                            <i class="bi bi-star-fill text-warning"></i>
+                            <i class="bi bi-star-fill text-warning"></i>
+                            <i class="bi bi-star-fill text-warning"></i>
+                            <i class="bi bi-star text-warning"></i>
+                            <i class="bi bi-star-half text-warning"></i>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="col-lg-4 col-md m-auto">
+                    <div class="card">
+                        <div class="card-body text-center">
+                          
+                            <img src="images/cardslide3.jpg" alt="" class="img-fluid" style="border-radius: 50%; height: 150px; width: 150px;">
+                       <h4>Farhan</h4>
+                            <p>"Are you looking for reviews of a specific product.</p>
+                            <i class="bi bi-star-fill text-warning"></i>
+                            <i class="bi bi-star-fill text-warning"></i>
+                            <i class="bi bi-star text-warning"></i>
+                            <i class="bi bi-star-fill text-warning"></i>
+                            <i class="bi bi-star-fill text-warning"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+        <div class="carousel-item">
+            <div class="row p-5">
+                <div class="col-lg-4 col-md">
+                <div class="card m-auto">
+                    <div class="card-body text-center">
+                      
+                        <img src="images/cardslide 4.avif" alt="" class="img-fluid" style="border-radius: 50%; height: 150px; width: 150px;">
+                   <h4>Salman Ali Agha</h4>
+                        <p>"Are you looking for reviews of a specific product.</p>
+                        <i class="bi bi-star-fill text-warning"></i>
+                        <i class="bi bi-star-fill text-warning"></i>
+                        <i class="bi bi-star-fill text-warning"></i>
+                        <i class="bi bi-star-half text-warning"></i>
+                        <i class="bi bi-star-half text-warning"></i>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-4 col-md">
+                <div class="card m-auto">
+                    <div class="card-body text-center">
+                      
+                        <img src="images/cardslide5.avif" alt="" class="img-fluid" style="border-radius: 50%; height: 150px; width: 150px;">
+                   <h4>Anabia</h4>
+                        <p>"Are you looking for reviews of a specific product.</p>
+                        <i class="bi bi-star-fill text-warning"></i>
+                        <i class="bi bi-star-fill text-warning"></i>
+                        <i class="bi bi-star-fill text-warning"></i>
+                        <i class="bi bi-star-fill text-warning"></i>
+                        <i class="bi bi-star text-warning"></i>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-4 col-md">
+                <div class="card m-auto">
+                    <div class="card-body text-center">
+                      
+                        <img src="images/cardslide6.avif" alt="" class="img-fluid" style="border-radius: 50%; height: 150px; width: 150px;">
+                  <h4>Fakhar</h4> 
+                       <p>Are you looking for reviews of a specific product.</p>
+                       <i class="bi bi-star-fill text-warning"></i>
+                       <i class="bi bi-star-fill text-warning"></i>
+                       <i class="bi bi-star text-warning"></i>
+                       <i class="bi bi-star-fill text-warning"></i>
+                       <i class="bi bi-star text-warning"></i>
+                    </div>
+                </div>
+
+            </div>
+            </div>
+        </div>
+
+        <div class="carousel-item">
+          <div class="row p-5">
+              <div class="col-lg-4 col-md">
+              <div class="card m-auto">
+                  <div class="card-body text-center">
+                    
+                      <img src="images/cardslide7.avif" alt="" class="img-fluid" style="border-radius: 50%; height: 150px; width: 150px;">
+                      <h4>Amir</h4>
+                      <p>"Are you looking for reviews of a specific product.</p>
+                      <i class="bi bi-star-fill text-warning"></i>
+                       <i class="bi bi-star-fill text-warning"></i>
+                       <i class="bi bi-star-fill text-warning"></i>
+                       <i class="bi bi-star-fill text-warning"></i>
+                       <i class="bi bi-star-fill text-warning"></i>
+                  </div>
+              </div>
+          </div>
+
+          <div class="col-lg-4 col-md">
+              <div class="card m-auto">
+                  <div class="card-body text-center">
+                    
+                      <img src="images/cardslide8.avif" alt="" class="img-fluid" style="border-radius: 50%; height: 150px; width: 150px;">
+                 <h4>Babar</h4>
+                      <p>"Are you looking for reviews of a specific product.</p>
+                      <i class="bi bi-star-fill text-warning"></i>
+                      <i class="bi bi-star-fill text-warning"></i>
+                      <i class="bi bi-star-fill text-warning"></i>
+                      <i class="bi bi-star-fill text-warning"></i>
+                      <i class="bi bi-star-fill text-warning"></i>
+                  </div>
+              </div>
+          </div>
+
+          <div class="col-lg-4 col-md">
+              <div class="card m-auto">
+                  <div class="card-body text-center">
+                    
+                      <img src="images/cardslide9.avif" alt="" class="img-fluid" style="border-radius: 50%; height: 150px; width: 150px;">
+                 <h4>Nimra</h4>
+                      <p>Are you looking for reviews of a specific product.</p>
+                      <i class="bi bi-star-fill text-warning"></i>
+                      <i class="bi bi-star-fill text-warning"></i>
+                      <i class="bi bi-star text-warning"></i>
+                      <i class="bi bi-star-fill text-warning"></i>
+                      <i class="bi bi-star-half text-warning"></i>
+                  </div>
+              </div>
+
+          </div>
+          </div>
+      </div>
+    </div>
+</div>
+
+
+  <button onclick="topFunction()" id="myBtn"><i class="bi bi-arrow-up-circle-fill" style="font-size: 34px; color:chocolate;"></i></button>
+
+
+
+
+
+ <footer class="text-center mt-4 bg-footer">
+ 
+  <section class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
+    
+    <div class="me-5 d-none d-lg-block">
+      <span>Get connected with us on social networks:</span>
+    </div>
+ 
+
+
+    <div>
+      <a href="https://www.facebook.com/" class="me-4 text-reset">
+        <i class="bi bi-facebook text-primary" style="font-size: 20px;"></i>
+      </a>
+      <a href="http://www.twitter.com/" class="me-4 text-reset" style="font-size: 20px;">
+        <i class="bi bi-twitter text-primary"></i>
+      </a>
+      <a href="https://www.google.com.pk/" class="me-4 text-reset" style="font-size: 20px;">
+        <i class="bi bi-google text-success"></i>
+      </a>
+      <a href="https://www.instagram.com/" class="me-4 text-reset" style="font-size: 20px;">
+        <i class="bi bi-instagram text-danger"></i>
+      </a>
+      <a href="https://pk.linkedin.com/" class="me-4 text-reset" style="font-size: 20px;">
+        <i class="bi bi-linkedin text-primary"></i>
+      </a>
+    </div>
+    
+  </section>
+  
+    <div class="container text-center text-md-start mt-5">
+      
+      <div class="row mt-3">
+        <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+          
+          <h6 class="text-uppercase fw-bold mb-4">
+            <i class="fas fa-gem me-3"></i>Handicrafts
+          </h6>
+          <p>
+            Handicrafts are a manifestation of human creativity, skill, and cultural heritage. These unique creations encompass a wide range of products crafted by hand. 
+          </p>
+        </div>
+       
+        <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+         
+          <h6 class="text-uppercase fw-bold mb-4">
+            Products
+          </h6>
+          <p>
+            <a href="Iron3.html" class="text-dark" style="text-decoration: none;">Iron</a>
+          </p>
+          <p>
+            <a href="Glass4.html"  class="text-dark" style="text-decoration: none;">Glass</a>
+          </p>
+          <p>
+            <a href="Home decor5.html"  class="text-dark" style="text-decoration: none;">Home decor</a>
+          </p>
+          <p>
+            <a href="Tables wares5.html" class="text-dark" style="text-decoration: none;">Table ware</a>
+          </p>
+          <p>
+            <a href="Wood8.html" class="text-dark" style="text-decoration: none;">Wood</a>
+          </p>
+          <p>
+            <a href="Aluminum3.html" class="text-dark" style="text-decoration: none;">Aliuminum</a>
+          </p>
+        </div>
+       
+        <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+          <h6 class="text-uppercase fw-bold mb-4">
+            Useful link
+          </h6>
+          <p>
+            <a href="Home.html" class="text-dark" style="text-decoration: none;">Home</a>
+          </p>
+          <p>
+            <a href="About.html" class="text-dark" style="text-decoration: none;">About</a>
+          </p>
+          <p>
+            <a href="Contact.html" class="text-dark" style="text-decoration: none;">Contact</a>
+          </p>
+          <p>
+            <a href="Gallery.html" class="text-dark" style="text-decoration: none;">Gallery</a>
+          </p>
+          <p>
+            <a href="Handicraftsproducts.html" class="text-dark" style="text-decoration: none;">Product</a>
+          </p>
+          <p>
+            <a href="facts.html" class="text-dark" style="text-decoration: none;">Faqs</a>
+          </p>
+
+        </div>
+
+        <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+          <h6 class="text-uppercase fw-bold mb-4">Contact</h6>
+          <p><i class="bi bi-house-door-fill me-3"></i> Karachi Korangi </p>
+          <p>
+            <i class="bi bi-envelope-fill me-3"></i></i>
+            info@example.com
+          </p>
+          <p><i class="bi bi-telephone-fill me-3"></i> + 32 483 84 604</p>
+          <p><i class="bi bi-phone-flip me-3"></i> + 01 234 567 89</p>
+        </div>
+      </div>
+    </div>
+  <div class="text-center p-4">© 2024 Create By Huzaifa: </div>
+</footer> 
+
+
+
+
+
+     
+
+
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+    integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+    crossorigin="anonymous"></script>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
+    integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
+    crossorigin="anonymous"></script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+  <script>
+    document.addEventListener("DOMContentLoaded", function () {
+      let Switchinput = document.getElementById('flexSwitchCheckChecked');
+      Switchinput.addEventListener('change', function () {
+        if (this.checked) {
+          document.body.classList.add('dark-mode');
+        }
+        else {
+          document.body.classList.remove('dark-mode')
+        }
+      })
+    });
+
+
+
+
+    let mybutton = document.getElementById("myBtn");
+
+window.onscroll = function (){scrollFunction()};
+
+function scrollFunction(){
+        if(document.body.scrollTop > 20 || document.documentElement.scrollTop > 20){
+                mybutton.style.display = "block";
+        }
+        else{
+                mybutton.style.display = "none";
+        }
+}
+
+function topFunction(){
+        document.body.scrollTop = 0;
+        document.documentElement.scrollTop = 0;
+}
+  </script>
+
+</body>
+
+</html>
